@@ -121,8 +121,57 @@ if __name__ == "__main__":
                         data-background="https://www.flickr.com/photo_download.gne?id=53041820768&secret=e8b40ba653&size=k&source=photoPageEngagement">
                         <h1>¿Esta estatua es griega o romana?</h1>
                     </section>
+
+                    <section><h1>De repente oigo hablar de Windsurf</h1>
+                        <img src="img/windsurf.png" alt="Windsurf">
+                        <aside class="notes">Que se supone que está hecho para
+                            eso...</aside>
+                    </section>
+
+                    <section><h1>Les presento a Ceres: la web de Renfe de
+                        HdA</h1>
+                        <img src="img/ceres-fail.png">
+                        <h2 class="fragment">Buscador de recursos del Mº de
+                            cultura</h2>
+                    </section>
+
+                    <section><h2>¿EL URL de los resultados de la búsqueda? Pa k
+                        kieres eso jaja salu2</h2>
+                        <img src="img/no-url.png" alt="cántaro">
+                        <aside class="notes">Es la primera solución cuando
+                            buscas Laocoonte, ojocuidao</aside>
+                    </section>
+
+                    <section><h1>Resumen: <em>vibe fail</em></h1>
+                        <pre><code>
+function generateCERESUrl() {
+    const info = extractInformation();
+    return `https://ceres.mcu.es/pages/Main?idt=${info.idt}&inventary=${info.inventory}&table=${info.table}&museum=${info.museum}`;
+}</code></pre>
+                        <h2 class="fragment">Puede que no sea culpa de Windsurf,
+                            pero incluso así...</h2>
+                        <aside class="notes">No conseguí que funcionara ni como
+                            plugin de Chrome ni de Firefox</aside>
+                    </section>
+
+                    <section><h1>Vistiendo santos: 👍</h1>
+                        <h2><a href="https://vistiendo-santos.online">Web para
+                            una exposición imaginaria</a></h2>
+                        <img src="https://vistiendo-santos.online/flaminica.jpg"
+                             alt="Logo de la exposición">
+                    </section>
+
+                    <section><h1>Refactorizando FTW ♻️</h1>
+                        <img src="img/diff-vistiendo-santos.png" alt="diffs con
+                                  refactorización">
+                        <aside class="notes">La refactorización es muy
+                        sencilla. Con windsurf, simplemente cambias algo y
+                        empieza a sugerirte cambios similares en el resto de la
+                            base de código.
+                        </aside>
+                    </section>
                 </section>
-                    
+                
 	    </div>
 	</div>
 	<script src="dist/reveal.js"></script>
